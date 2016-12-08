@@ -1,0 +1,412 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SettingsClass</class>
+ <widget class="QMainWindow" name="SettingsClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>481</width>
+    <height>330</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Settings</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QComboBox" name="comboBox_2">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>10</y>
+      <width>131</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>屏幕1*1排列</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>屏幕2*2排列</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>屏幕3*3排列</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>音量增加</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>音量减少</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>显示主面板</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>隐藏主面板</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PPT上翻</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>PPT下翻</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="btn_OK">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>240</y>
+      <width>75</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>确定</string>
+    </property>
+   </widget>
+   <widget class="QWidget" name="formLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>311</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QFormLayout" name="formLayout">
+     <property name="horizontalSpacing">
+      <number>20</number>
+     </property>
+     <property name="verticalSpacing">
+      <number>20</number>
+     </property>
+     <item row="0" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>左手上举</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QComboBox" name="cbb_LeftHandUp">
+       <item>
+        <property name="text">
+         <string>Layout11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout22</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout33</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelVisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelUnvisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnUp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnDown</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTPrev</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTNext</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="4" column="0">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>双手靠拢</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>左手向左</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>右手上举</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QComboBox" name="cbb_RightHandUp">
+       <item>
+        <property name="text">
+         <string>Layout11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout22</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout33</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelVisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelUnvisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnUp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnDown</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTPrev</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTNext</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QComboBox" name="cbb_LeftHandLeft">
+       <property name="currentText">
+        <string>Layout11</string>
+       </property>
+       <item>
+        <property name="text">
+         <string>Layout11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout22</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout33</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelVisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelUnvisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnUp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnDown</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTPrev</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTNext</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="1">
+      <widget class="QComboBox" name="cbb_RightHandRight">
+       <item>
+        <property name="text">
+         <string>Layout11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout22</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout33</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelVisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelUnvisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnUp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnDown</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTPrev</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTNext</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="3" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>右手向右</string>
+       </property>
+      </widget>
+     </item>
+     <item row="4" column="1">
+      <widget class="QComboBox" name="cbb_HandsClosed">
+       <item>
+        <property name="text">
+         <string>Layout11</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout22</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Layout33</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelVisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PanelUnvisible</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnUp</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VolumnDown</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTPrev</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>PPTNext</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menuBar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>481</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QToolBar" name="mainToolBar">
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+  </widget>
+  <widget class="QStatusBar" name="statusBar"/>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="settings.qrc"/>
+ </resources>
+ <connections/>
+</ui>
